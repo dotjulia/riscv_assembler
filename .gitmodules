@@ -1,0 +1,3 @@
+[submodule "riscv_emitter"]
+	path = riscv_emitter
+	url = git@github.com:dotjulia/riscv_emitter.git

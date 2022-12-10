@@ -1,0 +1,17 @@
+[package]
+name = "riscvassembler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "riscvassembler"
+path = "src/lib.rs"
+
+[[bin]]
+name = "riscvassembler"
+path = "src/bin.rs"
+
+[dependencies]
+riscvemitter = { path = "./riscv_emitter" }
